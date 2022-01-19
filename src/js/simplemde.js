@@ -1414,7 +1414,7 @@ SimpleMDE.prototype.markdown = function(text) {
 
 
 		// Return
-		return marked(text);
+		return marked.parse(text);
 	}
 };
 
@@ -1532,7 +1532,7 @@ function isLocalStorageAvailable() {
 		try {
 			localStorage.setItem("smde_localStorage", 1);
 			localStorage.removeItem("smde_localStorage");
-		} catch(e) {
+		} catch (e) {
 			return false;
 		}
 	} else {

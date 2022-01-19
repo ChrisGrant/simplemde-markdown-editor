@@ -9,7 +9,7 @@
     "javascript",
     "wysiwyg"
   ],
-  "homepage": "https://github.com/NextStepWebs/simplemde-markdown-editor",
+  "homepage": "https://github.com/ChrisGrant/simplemde-markdown-editor",
   "main": "./src/js/simplemde.js",
   "license": "MIT",
   "company": "Next Step Webs, Inc.",
@@ -18,31 +18,31 @@
     "url": "http://www.WesCossick.com"
   },
   "bugs": {
-    "url": "https://github.com/NextStepWebs/simplemde-markdown-editor/issues"
+    "url": "https://github.com/ChrisGrant/simplemde-markdown-editor/issues"
   },
   "dependencies": {
-    "codemirror": "*",
-    "codemirror-spell-checker": "*",
-    "marked": "*"
+    "codemirror": "5.40.2",
+    "codemirror-spell-checker": "1.1.2",
+    "marked": "^4.0.10"
   },
   "devDependencies": {
     "browserify": "*",
     "debug": "*",
     "eslint": "*",
-    "gulp": "*",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "*",
     "gulp-concat": "*",
     "gulp-debug": "*",
     "gulp-eslint": "*",
     "gulp-header": "*",
     "gulp-jsbeautifier": "*",
-    "gulp-clean-css": "*",
     "gulp-rename": "*",
     "gulp-uglify": "*",
-    "vinyl-source-stream": "*",
-    "vinyl-buffer": "*"
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NextStepWebs/simplemde-markdown-editor"
+    "url": "https://github.com/ChrisGrant/simplemde-markdown-editor"
   }
 }
